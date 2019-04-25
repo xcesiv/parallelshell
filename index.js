@@ -116,7 +116,7 @@ process.on('SIGINT', close)
 
 /* Return true if version >= minimumRequired
  * @string minimumRequired  example : 8.0.0
- * @string version          example : 10.0.0 
+ * @string version          example : 10.0.0
  */
 function checkNodeVersion (minimumRequired, version) {
     var minVer = minimumRequired.split('.')
